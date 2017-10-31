@@ -78,6 +78,9 @@ import PopoverExample
 import ProgressExample
   from '../../views/progress/progress_example';
 
+import QueryPanelExample
+  from '../../views/query_panel/query_panel_example';
+
 import SideNavExample
   from '../../views/side_nav/side_nav_example';
 
@@ -175,6 +178,9 @@ const components = [{
 }, {
   name: 'Progress',
   component: ProgressExample,
+}, {
+  name: 'QueryPanel',
+  component: QueryPanelExample,
 }, {
   name: 'SideNav',
   component: SideNavExample,
